@@ -3,12 +3,12 @@
 From October 2022 to May 2023, under Dr. Hao Yan at the University of North Texas, I have been working on this project
 
 ## requirements
-[Python2](https://www.python.org/downloads/release/python-272/ "Python 2")
-[AMBER 19](https://ambermd.org/GetAmber.php "AMBER 19")
-[Seaborn](https://seaborn.pydata.org/installing.html "Seaborn")
-[Pandas](https://pandas.pydata.org/docs/getting_started/install.html "Pandas")
-[MatPlotLib](https://matplotlib.org/stable/users/installing/index.html "MatPlotLib")
-[NumPy](https://numpy.org/install/ "NumPy")
+[Python2](https://www.python.org/downloads/release/python-272/ "Python 2")\
+[AMBER 19](https://ambermd.org/GetAmber.php "AMBER 19")\
+[Seaborn](https://seaborn.pydata.org/installing.html "Seaborn")\
+[Pandas](https://pandas.pydata.org/docs/getting_started/install.html "Pandas")\
+[MatPlotLib](https://matplotlib.org/stable/users/installing/index.html "MatPlotLib")\
+[NumPy](https://numpy.org/install/ "NumPy")\
 
 ## preliminary results
 SCD vs Temperature Graph
