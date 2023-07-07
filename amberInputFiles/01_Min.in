@@ -1,0 +1,13 @@
+Lipid minimization
+ &cntrl
+  imin=1,       ! Minimize the initial structure
+  maxcyc=50000, ! Maximum number of cycles for minimization
+  ncyc=25000,   ! Switch from steepest descent to conjugate gradient minimization after ncyc cycles
+  ntb=1,        ! Constant volume
+  ntp=0,        ! No pressure scaling
+  ntf=1,        ! Complete force evaluation
+  ntc=1,        ! No SHAKE
+  ntpr=500,     ! Print to mdout every ntpr steps
+  ntwr=2000,    ! Write a restart file every ntwr steps
+  cut=10.0,     ! Nonbonded cutoff in Angstroms
+ /

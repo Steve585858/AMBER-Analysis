@@ -1,0 +1,28 @@
+At 300K, increase pressure from 1B to 010B, 2ns
+ &cntrl
+  imin=0,
+  ntx=5,
+  irest=1,
+  ntc=2,
+  ntf=2,
+  nstlim=1000000,
+  ntt=3,
+  gamma_ln=1.0,
+  temp0=300.0,
+  ntpr=2000,
+  ntwr=2000,
+  ntwx=2000,
+  dt=0.002,
+  ig=-1,
+  ntb=2,
+  ntp=1,
+  pres0=10,
+  cut=10.0,
+  ioutfm=1,
+  ntxo=2,
+ /
+ /
+ &ewald
+  skinnb=5,
+ /
+

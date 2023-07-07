@@ -1,0 +1,38 @@
+Lipid 126 heating 300K
+ &cntrl
+  imin=0,
+  ntx=5,
+  irest=1,
+  ntc=2,
+  ntf=2,
+  nstlim=1000000,
+  ntt=3,
+  gamma_ln=1.0,
+  ntr=1,
+  ig=-1,
+  ntpr=100,
+  ntwr=2000,
+  ntwx=100,
+  dt=0.002,
+  nmropt=1,
+  ntb=2,
+  ntp=2,
+  pres0=300.0,
+  taup=2.0,
+  cut=10.0,
+  ioutfm=1,
+  ntxo=2,
+/
+&wt
+  type='TEMP0',
+  istep1=0,
+  istep2=1000000,
+  value1=300.0,
+  value2=315.0 /
+ &wt type='END' /
+Hold lipid fixed
+10.0
+RES 1 378
+END
+END
+
